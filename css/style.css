@@ -1,0 +1,161 @@
+#body{
+    background-color: #026773;
+    margin: 0px 0px;
+    font-family: 'Koulen', cursive;
+}
+
+
+
+.titulo{
+    color: #3CA6A6;
+    margin-top: 20px;
+}
+header{
+    margin: 0px 0px;
+    background-color: #F2E3D5;
+    
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px;
+    position: sticky;
+    top: 0;
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    column-gap: 10px;
+    
+}
+
+.a{
+    color: #3CA6A6;
+}
+
+#hover-menu :hover{
+    color:#026773;
+    font-size: 20px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+#opciones{
+    background-color: #F2E3D5;
+    margin: 10px 10px;
+    
+    height: 1000px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    row-gap: 30px;
+
+    border-radius: 10px;
+
+}
+
+@media screen and (max-width:1280px){
+    #opciones{
+    height: 1000px;
+    }
+}
+
+@media screen and (max-width:800px){
+    #opciones{
+        height: 1200px;
+        }
+    .imagen{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    #opciones{
+        height: 1600px;
+        }
+    .imagen{
+        width: 100%;
+    }    
+}
+
+
+div{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+.opcion{
+    background-color: white;
+    color: #026773;
+    border: 2px solid #026773;
+    border-radius: 25px;
+    width: 300px;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+    
+}
+
+
+.foto{
+    width: 90%;
+}
+
+.div-room{
+    background-color: #F2E3D5;
+    border-radius: 10px;
+}
+.hache-dos{
+    color: #3CA6A6;
+}
+
+.form{
+    border-radius: 10px;
+}
+
+/* #sec-info{
+    background-color: grey;
+    border-radius: 10px;
+    height: 1000px; 
+}
+
+.info{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 10px;
+} */
+
+.descripcion{
+    border: solid 2px ;
+    border-radius: 10px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+
+   
+}
+
+#descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+
